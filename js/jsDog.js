@@ -18,3 +18,9 @@ button.addEventListener("click", () =>{
         detchHandler();
     }
 })
+image.addEventListener("click", () =>{
+    let isloaded = image.complete;
+    if(isloaded){
+        detchHandler();
+    }
+})

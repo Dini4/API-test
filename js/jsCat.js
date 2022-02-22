@@ -9,3 +9,9 @@ button.addEventListener("click", () =>{
         image.src = "http://thecatapi.com/api/images/get?format=src&typ…amp=function%20random()%20{%20[native%20code]%20}"+Math.random();
     }
 })
+image.addEventListener("click", () =>{
+    let isloaded = image.complete;
+    if(isloaded){
+        image.src = "http://thecatapi.com/api/images/get?format=src&typ…amp=function%20random()%20{%20[native%20code]%20}"+Math.random();
+    }
+})
